@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(192, 192, 192);
+}
+
+.hero {
+    background-image: url(./foto4.jpg);
+    /*background-image: url('https://picsum.photos/id/1047/1920/1080');*/
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.about h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.lead {
+    color: #fff;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.image-wrapper {
+    margin: 10px;
+    width: 380px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease-in-out;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}
+
+
+.gallery h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*.gallery {
+    padding: 100px 0;
+}
+
+.gallery h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.image-wrapper img {
+    transition: transform .3s ease-in-out;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.1);
+}*/
+
+.social {
+    padding: 100px 0;
+}
+
+.social h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.social-icon i {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.social-icon p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.link__igor {
+    text-decoration: none;
+}
+
+.texto__oferta {
+    padding-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+h3 {
+    padding: 10px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .about h2 {
+        font-size: 2.5rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+
+    .gallery h2 {
+        font-size: 2.5rem;
+    }
+
+    .social h2 {
+        font-size: 2.5rem;
+    }
+
+    .social-icon i {
+        font-size: 2rem;
+    }
+
+    .social-icon p {
+        font-size: 1rem;
+    }
+}
