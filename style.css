@@ -3,8 +3,7 @@ body {
 }
 
 .hero {
-    background-image: url(./foto8.jpg);
-    /*background-image: url('https://picsum.photos/id/1047/1920/1080');*/
+    background-image: url(./foto 8.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
